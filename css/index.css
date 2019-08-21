@@ -1,0 +1,104 @@
+/* Estilização Global */
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    background: #365d7e;
+}
+
+/* Título da Aplicação */
+
+h1 {
+    color: #FFF;
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-top: 15px;
+}
+
+/* Formulário do To Do*/
+form {
+    margin: 25px auto;
+    padding: 20px;
+    max-width: 500px;
+    width: 95%;
+    background: #FFF;
+    border-radius: 5px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+form input {
+    width: 70% ;
+    padding: 0 20px;
+    border: 1px solid #DDD;
+    height: 38px;
+    border-radius: 5px;
+}
+
+form button {
+    width: 25%;
+    cursor: pointer;
+    background: rgb(27, 212, 27);
+    border: 0;
+    border-radius: 6px;
+    color: #FFF;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+form button:hover {
+    opacity: 0.8;
+}
+
+/* Elementos que serão Gerados */
+ul {
+    margin: 25px auto;
+    width: 95%;
+    max-width: 500px; 
+    display: flex;
+    flex-direction: column;
+}
+
+ul li {
+    list-style: none;
+    background: #FFF;
+    border-radius: 5px;
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 20px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+ul li p {
+    text-align: center;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+}
+
+ul li button {
+    width: 25%;
+    cursor: pointer;
+    padding: 10px;
+    background: rgb(204, 24, 24);
+    border: 0;
+    border-radius: 6px;
+    color: #FFF;
+    font-size: 14px;
+    font-weight: bold;
+}
